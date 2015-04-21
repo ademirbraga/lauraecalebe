@@ -989,6 +989,18 @@
                 </div>
             </div>
         </div>
+        
+        <div class="tk-peo-item">
+            <div class="tallykit_people_item">
+                <div class="tk_people_item_image">
+                    <a href="#"><img src="images/background-images/fotos/padrinhos/enoque_marina.jpg" alt="" style="width:205px; height:205px"></a>
+                </div>
+                <div class="tk_people_item_details">
+                    <h3 class="tk_people_item_heading"><a href="#">Enoque e Mariana</a></h3>
+                    <div class="tk_people_item_social"></div>
+                </div>
+            </div>
+        </div>
 
 
 
