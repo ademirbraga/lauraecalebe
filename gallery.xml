@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery
+	
+	galleryStyle="MODERN"
+	title="SimpleViewer Gallery"
+	textColor="FFFFFF"
+	frameColor="FFFFFF"
+	frameWidth="20"
+	thumbPosition="LEFT"
+	thumbColumns="3"
+	thumbRows="3"
+	showOpenButton="TRUE"
+	showFullscreenButton="TRUE"	
+	maxImageWidth="1024"
+	maxImageHeight="768"
+	useFlickr="false"
+	flickrUserName=""
+	flickrTags=""
+	languageCode="AUTO"
+	languageList=""		
+	imagePath="images/background-images/fotos/"
+	thumbPath="images/background-images/fotos/thumbnails/"
+	
+>
+
+<image imageURL="images/background-images/fotos/img01.jpg" thumbURL="images/background-images/fotos/thumbnails/img01.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img02.jpg" thumbURL="images/background-images/fotos/thumbnails/img02.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img03.jpg" thumbURL="images/background-images/fotos/thumbnails/img03.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img04.jpg" thumbURL="images/background-images/fotos/thumbnails/img04.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img05.jpg" thumbURL="images/background-images/fotos/thumbnails/img05.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img06.jpg" thumbURL="images/background-images/fotos/thumbnails/img06.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img07.jpg" thumbURL="images/background-images/fotos/thumbnails/img07.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img08.jpg" thumbURL="images/background-images/fotos/thumbnails/img08.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img09.jpg" thumbURL="images/background-images/fotos/thumbnails/img09.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img10.jpg" thumbURL="images/background-images/fotos/thumbnails/img10.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img11.jpg" thumbURL="images/background-images/fotos/thumbnails/img11.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img12.jpg" thumbURL="images/background-images/fotos/thumbnails/img12.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img13.jpg" thumbURL="images/background-images/fotos/thumbnails/img13.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img14.jpg" thumbURL="images/background-images/fotos/thumbnails/img14.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img15.jpg" thumbURL="images/background-images/fotos/thumbnails/img15.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img16.jpg" thumbURL="images/background-images/fotos/thumbnails/img16.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img17.jpg" thumbURL="images/background-images/fotos/thumbnails/img17.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img18.jpg" thumbURL="images/background-images/fotos/thumbnails/img18.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img19.jpg" thumbURL="images/background-images/fotos/thumbnails/img19.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img20.jpg" thumbURL="images/background-images/fotos/thumbnails/img20.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img21.jpg" thumbURL="images/background-images/fotos/thumbnails/img21.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img22.jpg" thumbURL="images/background-images/fotos/thumbnails/img22.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img23.jpg" thumbURL="images/background-images/fotos/thumbnails/img23.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img24.jpg" thumbURL="images/background-images/fotos/thumbnails/img24.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img25.jpg" thumbURL="images/background-images/fotos/thumbnails/img25.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img26.jpg" thumbURL="images/background-images/fotos/thumbnails/img26.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img27.jpg" thumbURL="images/background-images/fotos/thumbnails/img27.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img28.jpg" thumbURL="images/background-images/fotos/thumbnails/img28.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img29.jpg" thumbURL="images/background-images/fotos/thumbnails/img29.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img30.jpg" thumbURL="images/background-images/fotos/thumbnails/img30.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img31.jpg" thumbURL="images/background-images/fotos/thumbnails/img31.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img32.jpg" thumbURL="images/background-images/fotos/thumbnails/img32.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img33.jpg" thumbURL="images/background-images/fotos/thumbnails/img33.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img34.jpg" thumbURL="images/background-images/fotos/thumbnails/img34.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img35.jpg" thumbURL="images/background-images/fotos/thumbnails/img35.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img36.jpg" thumbURL="images/background-images/fotos/thumbnails/img36.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img37.jpg" thumbURL="images/background-images/fotos/thumbnails/img37.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img38.jpg" thumbURL="images/background-images/fotos/thumbnails/img38.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img39.jpg" thumbURL="images/background-images/fotos/thumbnails/img39.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img40.jpg" thumbURL="images/background-images/fotos/thumbnails/img40.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img41.jpg" thumbURL="images/background-images/fotos/thumbnails/img41.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img42.jpg" thumbURL="images/background-images/fotos/thumbnails/img42.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img43.jpg" thumbURL="images/background-images/fotos/thumbnails/img43.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img44.jpg" thumbURL="images/background-images/fotos/thumbnails/img44.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img45.jpg" thumbURL="images/background-images/fotos/thumbnails/img45.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img46.jpg" thumbURL="images/background-images/fotos/thumbnails/img46.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img47.jpg" thumbURL="images/background-images/fotos/thumbnails/img47.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img48.jpg" thumbURL="images/background-images/fotos/thumbnails/img48.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img49.jpg" thumbURL="images/background-images/fotos/thumbnails/img49.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img50.jpg" thumbURL="images/background-images/fotos/thumbnails/img50.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img51.jpg" thumbURL="images/background-images/fotos/thumbnails/img51.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img52.jpg" thumbURL="images/background-images/fotos/thumbnails/img52.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img53.jpg" thumbURL="images/background-images/fotos/thumbnails/img53.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img54.jpg" thumbURL="images/background-images/fotos/thumbnails/img54.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img55.jpg" thumbURL="images/background-images/fotos/thumbnails/img55.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img56.jpg" thumbURL="images/background-images/fotos/thumbnails/img56.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img57.jpg" thumbURL="images/background-images/fotos/thumbnails/img57.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img58.jpg" thumbURL="images/background-images/fotos/thumbnails/img58.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img59.jpg" thumbURL="images/background-images/fotos/thumbnails/img59.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img60.jpg" thumbURL="images/background-images/fotos/thumbnails/img60.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img61.jpg" thumbURL="images/background-images/fotos/thumbnails/img61.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img62.jpg" thumbURL="images/background-images/fotos/thumbnails/img62.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img63.jpg" thumbURL="images/background-images/fotos/thumbnails/img63.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img64.jpg" thumbURL="images/background-images/fotos/thumbnails/img64.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img65.jpg" thumbURL="images/background-images/fotos/thumbnails/img65.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img66.jpg" thumbURL="images/background-images/fotos/thumbnails/img66.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img67.jpg" thumbURL="images/background-images/fotos/thumbnails/img67.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img68.jpg" thumbURL="images/background-images/fotos/thumbnails/img68.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img69.jpg" thumbURL="images/background-images/fotos/thumbnails/img69.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img70.jpg" thumbURL="images/background-images/fotos/thumbnails/img70.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img71.jpg" thumbURL="images/background-images/fotos/thumbnails/img71.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img72.jpg" thumbURL="images/background-images/fotos/thumbnails/img72.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img73.jpg" thumbURL="images/background-images/fotos/thumbnails/img73.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img74.jpg" thumbURL="images/background-images/fotos/thumbnails/img74.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img75.jpg" thumbURL="images/background-images/fotos/thumbnails/img75.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img76.jpg" thumbURL="images/background-images/fotos/thumbnails/img76.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img77.jpg" thumbURL="images/background-images/fotos/thumbnails/img77.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img78.jpg" thumbURL="images/background-images/fotos/thumbnails/img78.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img79.jpg" thumbURL="images/background-images/fotos/thumbnails/img79.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img80.jpg" thumbURL="images/background-images/fotos/thumbnails/img80.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img81.jpg" thumbURL="images/background-images/fotos/thumbnails/img81.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img82.jpg" thumbURL="images/background-images/fotos/thumbnails/img82.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img83.jpg" thumbURL="images/background-images/fotos/thumbnails/img83.jpg" linkURL="" linkTarget="" />
+<image imageURL="images/background-images/fotos/img84.jpg" thumbURL="images/background-images/fotos/thumbnails/img84.jpg" linkURL="" linkTarget="" />
+
+</simpleviewergallery>

@@ -22,17 +22,13 @@
 
     <script type="text/javascript" src="js/jquery.js"></script>
     
-    <link type="text/css" rel="stylesheet" href="css/foliogallery.css" />
-    <link type="text/css" rel="stylesheet" href="css/colorbox.css" />
-    <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
     
-    <script type="text/javascript">
-$(document).ready(function(){
-    // initiate colorbox
-	$('.albumpix').colorbox({rel:'albumpix', maxWidth:'96%', maxHeight:'96%', slideshow:true, slideshowSpeed:3500, slideshowAuto:false});
-	$('.vid').colorbox({rel:'albumpix', iframe:true, width:'80%', height:'96%'});
-});
-</script>
+    <script type="text/javascript" src="js/svcore/js/simpleviewer.js"></script>
+	<script type="text/javascript">
+	simpleviewer.ready(function () {
+		simpleviewer.load('sv-container', '100%', '100%', '222222', false);
+	});
+	</script>
 </head>
 <body class=" header-sticky">
 <div id="wrapper">
@@ -50,7 +46,7 @@ $(document).ready(function(){
 
         <div class="logo_area hheight">
             <div id="logo">
-                <a href="index-2.html"><img src="images/logo.png" alt="logo"></a>
+                <a href="javascript:void(0);"><img src="images/logo.png" alt="logo"></a>
             </div>
         </div>
 
@@ -78,6 +74,16 @@ $(document).ready(function(){
         <div class="acoc-flexslider2" id="acoc-flexslider2-uid">
 
             <ul class="slides">
+
+				<li>
+                    <div class="tallykit_slideshow_item image-only tk-backgroung-img0">
+                        <div class="tallykit_slideshow_item_inner">
+                            <div class="tk_slideshow_image_only_warp">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
 
                 <li>
 
@@ -1013,8 +1019,8 @@ $(document).ready(function(){
 
 
 
-<div class="tallykit-shortcode-row gallery-section section-padding1" id="section-gallery">
-    <div class="tk-shortcode-row-inner">
+<div class="tallykit-shortcode-row gallery-section section-padding1" id="section-gallery" style=height:450px!important;">
+    <div class="tk-shortcode-row-inner" style=height:300px!important;">
 
         <div class="tallykit-shortcode-heading style-1 ">
             <h2 class="tk_title"><span>Galeria de Fotos</span></h2>
@@ -1027,44 +1033,11 @@ $(document).ready(function(){
         <div class="clear"></div>
         <div class="tallykit-shortcode-divider tallykit-shortcode-divider-style-none divider-margin1"></div>
         <div class="clear"></div>
+		
+			<div id="sv-container"></div> 
 
-
-        <div class="tallykit_single_gallery">
-            <div id="tk-gallery">
-                <!-- galeria de fotos -->
-                        <div class="folioGallery" id="folioGallery">
-                          <div class="numPerPage" title="3"></div>
-                        </div>
-
-                        <div class="php-gallery">
-            
-                        <?php $_REQUEST['fullalbum']=1; include 'foliogallery.php'; ?>
-            
-                        </div>
-
-
-
-
-                <!-- fim galeria de fotos -->
-            </div>  
-            <script type="text/javascript">
-                jQuery(document).ready(function ($) {
-                    var $isotop_acoc_container = $('#tk-gallery').imagesLoaded(function () {
-                        $isotop_acoc_container.isotope({
-                            itemSelector: '.tk-gallery-item',
-                            masonry: {},
-                        });
-                    });
-                    $('#tk-gallery-filter').on('click', 'li', function () {
-                        $('#tk-gallery-filter li').removeClass('active');
-                        var filterValue = $(this).attr('data-filter');
-                        $isotop_acoc_container.isotope({ filter: filterValue });
-                        $(this).addClass('active');
-                    });
-                });
-            </script>
-            <div class="clear"></div>
-        </div>
+        <div class="clear"></div>
+        <div class="clear"></div>
 
     </div>
 </div>
@@ -1594,198 +1567,6 @@ $(document).ready(function(){
 
 <!-- fim lista de hoteis -->
 
-
-
-
-<!--
-<div class="tallykit-shortcode-row rsvp-section section-padding1" id="section-rsvp">
-    <div class="tk-shortcode-row-inner">
-
-        <div class="tallykit-shortcode-heading style-1 ">
-            <h2 class="tk_title"><span>RSVP</span></h2>
-            <span class="tk_bottomLine"></span>
-
-            <div class="clear"></div>
-        </div>
-
-
-        <div class="clear"></div>
-        <div class="tallykit-shortcode-divider tallykit-shortcode-divider-style-none divider-margin1"></div>
-        <div class="clear"></div>
-
-
-        <div class="tallykit-shortcode-column tallykit-shortcode-three-fifth tallykit-shortcode-column-first cloum-border cloum-bg1">
-            <div class="tallykit-shortcode-column-inner">
-                <div class="rsvp-form-area">
-                    <form name="" action="http://thewpdev.com/" method="post" class="rsvp-form" id="rsvpForm">
-                        <input type="hidden" style="display:none;" name="from" value="admin@bignetstudio.com"/>
-
-                        <p class="rsvp-name"><span><input type="text" name="name" value="" size="40" class="required"
-                                                          placeholder="Name"></span></p>
-
-                        <p class="rsvp-email"><span><input type="email" name="email" value="" size="40" class="required"
-                                                           placeholder="Email"></span></p>
-
-                        <p class="rsvp-phone"><span><input type="tel" name="phone" value="" size="40" class="required"
-                                                           placeholder="Phone"></span></p>
-
-                        <p class="rsvp-guests"><span><input type="text" name="guests" value="" size="40"
-                                                            class="required" placeholder="Number of Guests"></span></p>
-
-                        <p class="rsvp-comment"><span><textarea name="comment" cols="40" rows="10"
-                                                                placeholder="Write a note.."></textarea></span></p>
-
-                        <p><input type="submit" value="Send" class="submit"></p>
-                    </form>
-                    <p class="formOK">Thank you for your attention. Your message has been sent.</p>
-
-                    <p class="formNOK">There was an error when sending your message, please try again later.</p>
-
-                    <p class="sending"><span>Sending...</span></p>
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
-
-
-        <div class="tallykit-shortcode-column tallykit-shortcode-two-fifth tallykit-shortcode-column-last cloum-newarea">
-            <div class="tallykit-shortcode-column-inner">
-                <h3>ARE YOU ATTENDING?</h3>
-
-                <p>Please let us know whethere you will be joining us on our wedding day. Please RSVP before may 1st
-                    2015.</p>
-            </div>
-        </div>
-
-        <div class="clear"></div>
-    </div>
-</div>
-
-
-<div class="tallykit-shortcode-row blog-section section-padding1" id="section-blog">
-    <div class="tk-shortcode-row-inner">
-
-        <div class="tallykit-shortcode-heading style-1 ">
-            <h2 class="tk_title"><span>From Our Blog</span></h2>
-            <span class="tk_bottomLine"></span>
-
-            <div class="clear"></div>
-        </div>
-
-
-        <div class="clear"></div>
-        <div class="tallykit-shortcode-divider tallykit-shortcode-divider-style-none divider-margin1"></div>
-        <div class="clear"></div>
-
-        <div class="tallykit-shortcode-blog tallykit-shortcode-blog-grid">
-            <div id="blogs-grid">
-
-                <div class="blogs-grid-item story">
-                    <div class="tk-shortcode-blog-grid-item">
-                        <div class="tk-shortcode-blog-image">
-                            <a href="#" target="_self" title="Donec ut convallis ipsum">
-                                <img width="634" height="534" src="images/content-images/post-1-266x224.jpg"
-                                     alt="Donec ut convallis ipsum">
-                            </a>
-                        </div>
-                        <div class="tk-shortcode-blog-content">
-                            <h5 class="tk-shortcode-blog-title"><a href="#" target="_self" title="">Donec ut convallis
-                                ipsum</a></h5>
-
-                            <p class="tk-shortcode-blog-text">Etiam suscipit lectus ac dui venenatis placerat. Nulla
-                                facilisi. Curabitur elit lacus, cursus at nunc sit amet, </p>
-                        </div>
-                        <div class="tk-shortcode-blog-info">
-                            <span class="time"></span>
-                            <span class="coment_icon"><i class="fa fa-comment"></i> <a href="#"
-                                                                                       title="Comment on Donec ut convallis ipsum">No
-                                Comments</a></span>
-                            <span class="coment_icon"><a href="#" class="zilla-likes" id="zilla-likes-3043"
-                                                         title="Like this"><span class="zilla-likes-count">0</span>
-                                <span class="zilla-likes-postfix"></span></a></span>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="blogs-grid-item story">
-                    <div class="tk-shortcode-blog-grid-item">
-                        <div class="tk-shortcode-blog-image">
-                            <a href="#" target="_self" title="Day We Meet Each Other">
-                                <img width="634" height="534" src="images/content-images/post-2-266x224.jpg"
-                                     alt="Day We Meet Each Other">
-                            </a>
-                        </div>
-                        <div class="tk-shortcode-blog-content">
-                            <h5 class="tk-shortcode-blog-title"><a href="#" target="_self" title="">Day We Meet Each
-                                Other</a></h5>
-
-                            <p class="tk-shortcode-blog-text">Praesent in tempus nisi. Sed congue lacinia turpis ut
-                                ullamcorper. Aliquam sagittis lobortis elementum. Nam vel </p>
-                        </div>
-                        <div class="tk-shortcode-blog-info">
-                            <span class="time">23 de Maio de 2015</span>
-                            <span class="coment_icon"><i class="fa fa-comment"></i>
-                                <a href="#"  title="Comment on Day We Meet Each Other">1</a></span>
-                            <span class="coment_icon">
-                                <a href="#" class="zilla-likes" id="zilla-likes-3171" title="Like this">
-                                    <span class="zilla-likes-count">2</span>
-                                <span class="zilla-likes-postfix"></span></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="blogs-grid-item story">
-                    <div class="tk-shortcode-blog-grid-item">
-                        <div class="tk-shortcode-blog-image">
-                            <a href="#" target="_self" title="Our First Trip">
-                                <img width="634" height="534" src="images/content-images/post-3-266x224.jpg"
-                                     alt="Our First Trip">
-                            </a>
-                        </div>
-                        <div class="tk-shortcode-blog-content">
-                            <h5 class="tk-shortcode-blog-title"><a href="#" target="_self" title="">Our First Trip</a>
-                            </h5>
-
-                            <p class="tk-shortcode-blog-text">Cras pulvinar erat massa, rutrum gravida lorem hendrerit
-                                ultrices. Vestibulum volutpat nibh non gravida luctus. </p>
-                        </div>
-                        <div class="tk-shortcode-blog-info">
-                            <span class="time">March 27, 2014</span>
-                            <span class="coment_icon"><i class="fa fa-comment"></i> <a href="#"
-                                                                                       title="Comment on Our First Trip">1</a></span>
-                            <span class="coment_icon"><a href="#" class="zilla-likes" id="zilla-likes-3039"
-                                                         title="Like this"><span class="zilla-likes-count">3</span>
-                                <span class="zilla-likes-postfix"></span></a></span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <script type="text/javascript">
-                jQuery(document).ready(function ($) {
-                    var $isotop_acoc_container = $('#blogs-grid').imagesLoaded(function () {
-                        $isotop_acoc_container.isotope({
-                            itemSelector: '.blogs-grid-item',
-                            masonry: {},
-                        });
-                    });
-                    $('#blogs-grid-filter').on('click', 'li', function () {
-                        $('#blogs-grid-filter li').removeClass('active');
-                        var filterValue = $(this).attr('data-filter');
-                        $isotop_acoc_container.isotope({ filter: filterValue });
-                        $(this).addClass('active');
-                    });
-                });
-            </script>
-            <div class="clear"></div>
-        </div>
-    </div>
-</div>
-
--->
 <div class="tallykit-shortcode-row  footer-bg">
     <div class="tk-shortcode-row-inner">
         <h2><span><strong>Obrigado por visitar o nosso Website</strong></span></h2>
@@ -1795,12 +1576,6 @@ $(document).ready(function(){
 
 <div id="footer">
     <div id="footer-inner">
-<!-- 
-        <div class="footer_logo">
-            <img src="images/footer-logo.png" alt="">
-        </div>
- -->
-
         <div class="copy_text">Laura &amp; Calebe © 2015.
         </div>
 
